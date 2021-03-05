@@ -12,8 +12,8 @@ public class Item {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/items","root", "");
 			
-			//for testing
-			//System.out.println("Successfully connected");
+			
+			System.out.println("Successfully connected");
 		}
 		catch(Exception e) {
 			e.printStackTrace();
